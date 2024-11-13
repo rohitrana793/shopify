@@ -1,0 +1,20 @@
+.banner-items {
+  position: relative;
+  .banner-content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    a {
+      text-decoration: none;
+      color: inherit;
+      padding: 8px 15px;
+      background-color: $primary-color;
+    }
+    .banner-heading {
+      font-family: $primary-font;
+      font-weight: 700;
+      font-size: 119px;
+    }
+  }
+}
