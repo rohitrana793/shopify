@@ -1,0 +1,43 @@
+.footer {
+  background-color: $secondary-color;
+  color: white;
+  .social-media {
+    a {
+      font-size: 20px;
+      color: #998b6d;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .footer-link {
+    .row {
+      .col-lg-2 {
+        ul {
+          li {
+            position: relative;
+            width: fit-content;
+            &::before {
+              content: "";
+              height: 1px;
+              width: 0%;
+              background-color: white;
+              position: absolute;
+              top: 18px;
+              left: 0px;
+              display: none;
+            }
+            &:hover {
+              color: white;
+              // text-decoration: underline;
+              &::before {
+                display: block;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
