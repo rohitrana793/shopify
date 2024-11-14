@@ -1,13 +1,14 @@
 .banner-items {
+  img {
+    height: 100%;
+  }
   position: relative;
   .banner-content {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
     color: white;
     a {
-      text-decoration: none;
-      color: inherit;
       padding: 8px 15px;
       background-color: $primary-color;
     }
@@ -15,6 +16,25 @@
       font-family: $primary-font;
       font-weight: 700;
       font-size: 119px;
+    }
+    p {
+      font-family: $primary-font;
+      font-weight: 500;
+      font-size: 73px;
+    }
+  }
+}
+// ----------------------------------------------------FEATURED CATEGORY-------------------------------------------------
+.item-details {
+  .wrapper {
+    position: relative;
+    a {
+      position: absolute;
+      right: 50%;
+      top: 90%;
+      padding: 10px 20px;
+      background-color: white;
+      width: fit-content;
     }
   }
 }

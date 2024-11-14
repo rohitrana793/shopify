@@ -6,11 +6,9 @@
 ul {
   list-style: none;
 }
-li {
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 .text {
   font-family: $primary-font;
@@ -27,4 +25,25 @@ li {
   font-size: 14px;
   font-weight: 400px;
   color: #998b6d;
+}
+.title {
+  text-align: center;
+  h5 {
+    font-size: $primary-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(155, 155, 155);
+  }
+  h2 {
+    font-size: $primary-font;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgb(27, 25, 25);
+  }
+  span {
+    font-size: $primary-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(76, 76, 76);
+  }
 }

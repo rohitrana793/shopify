@@ -2,15 +2,15 @@ import React from "react";
 const bannerData = [
   {
     id: 1,
-    bannerText: "Mans Bags",
-    bannerDescription: "New man collection",
+    bannerText: "MAN BAGS",
+    bannerDescription: "New Men's Collection",
     bannerCover:
       "https://new-basel2.myshopify.com/cdn/shop/files/highcompress-slider_1.jpg?v=1613716582",
   },
   {
     id: 2,
-    bannerText: "Mans Bags",
-    bannerDescription: "New man collection",
+    bannerText: "NEW STYLE",
+    bannerDescription: "Boot's Collection For Men",
     bannerCover:
       "https://new-basel2.myshopify.com/cdn/shop/files/highcompress-slider_2.jpg?v=1613716582",
   },
@@ -26,7 +26,7 @@ function Banneritems(props) {
       />
       <div className="container">
         <div className="banner-content">
-          <h2 className="banner-heading">{props.Data.bannerText}</h2>
+          <h2 className="banner-heading m-0 p-0">{props.Data.bannerText}</h2>
           <p>{props.Data.bannerDescription}</p>
           <a href="">Shop Now</a>
         </div>
@@ -34,7 +34,6 @@ function Banneritems(props) {
     </div>
   );
 }
-
 function Banner() {
   return (
     <>

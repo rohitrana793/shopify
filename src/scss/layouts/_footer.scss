@@ -84,7 +84,7 @@
       color: #998b6d;
       a {
         text-decoration: none;
-        color: white;
+        color: white !important;
         position: relative;
         &::before {
           content: "";
