@@ -7,6 +7,7 @@ import {
   faChevronDown,
   faCartShopping,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
@@ -32,7 +33,7 @@ const Header = () => {
                   <a href="">OUR LOCATION</a>
                 </li>
                 <li>
-                  <a href="">CONTACT US</a>
+                  <Link to="/contact">CONTACT US</Link>
                 </li>
               </ul>
             </div>
@@ -77,12 +78,12 @@ const Header = () => {
               </ul>
             </div>
             <div className="col-lg-3">
-              <a href="">
+              <Link to="/">
                 <img
                   src="//new-basel2.myshopify.com/cdn/shop/files/logo-basel.svg?v=11944076954395008056"
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 d-flex  justify-content-between align-items-center">
               <a href="" className="login ms-5 ps-4">

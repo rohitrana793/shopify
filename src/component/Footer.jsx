@@ -22,7 +22,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
-        <div className="footer-link ps-5 ms-4 me-4">
+        <div className="footer-link">
           <div className="row pb-4">
             <div className="col-lg-2">
               <h5 className="heading pb-3">OUR STORES</h5>
